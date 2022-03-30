@@ -34,4 +34,4 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_READ_PACKAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
