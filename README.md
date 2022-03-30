@@ -19,6 +19,10 @@
    ```bash
    $ npm install -D @pres-inc/eslint-config-next
    ```
+9. You also need to install peer dependencies
+   ```bash
+   $ npm install -D @pres-inc/eslint-config-js @pres-inc/eslint-config-react @pres-inc/eslint-config-typescript eslint eslint-config-next
+   ```
 
 ## Usage
 

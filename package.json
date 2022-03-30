@@ -1,6 +1,6 @@
 {
   "name": "@pres-inc/eslint-config-next",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Set of shared eslint config for Next.js",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,11 @@
     "access": "restricted",
     "registry": "https://npm.pkg.github.com/"
   },
-  "devDependencies": {
-    "@pres-inc/eslint-config-js": "^0.1.0",
-    "@pres-inc/eslint-config-react": "^0.1.0",
-    "@pres-inc/eslint-config-typescript": "^0.1.0",
-    "eslint-config-next": "^12.1.2"
-  },
   "peerDependencies": {
-    "eslint": ">= 8"
+    "@pres-inc/eslint-config-js": ">= 0.1",
+    "@pres-inc/eslint-config-react": ">= 0.1",
+    "@pres-inc/eslint-config-typescript": ">= 0.1",
+    "eslint": ">= 8",
+    "eslint-config-next": ">= 12"
   }
 }
