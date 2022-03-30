@@ -1,7 +1,7 @@
 {
   "name": "@pres-inc/eslint-config-next",
-  "version": "0.1.0",
-  "description": "Shared eslint config for Next.js",
+  "version": "0.1.1",
+  "description": "Set of shared eslint config for Next.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,10 +21,10 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.17.0",
-    "@typescript-eslint/parser": "^5.17.0",
-    "eslint-config-next": "^12.1.2",
-    "eslint-plugin-import": "^2.25.4"
+    "@pres-inc/eslint-config-js": "^0.1.0",
+    "@pres-inc/eslint-config-react": "^0.1.0",
+    "@pres-inc/eslint-config-typescript": "^0.1.0",
+    "eslint-config-next": "^12.1.2"
   },
   "peerDependencies": {
     "eslint": ">= 8"
