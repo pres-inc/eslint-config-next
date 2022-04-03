@@ -1,6 +1,6 @@
 {
   "name": "@pres-inc/eslint-config-next",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Set of shared eslint config for Next.js",
   "main": "index.js",
   "scripts": {
