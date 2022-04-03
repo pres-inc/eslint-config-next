@@ -19,3 +19,9 @@
 extends:
   - "@pres-inc/eslint-config-next"
 ```
+
+You may need to use `--resolve-plugins-relative-to` option:
+
+```bash
+$ yarn eslint --resolve-plugins-relative-to .
+```
