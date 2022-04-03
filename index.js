@@ -1,4 +1,5 @@
 module.exports = {
+  "root": true,
   "extends": [
     "next/core-web-vitals",
     "@pres-inc/eslint-config-js",
